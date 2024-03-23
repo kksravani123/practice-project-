@@ -42,8 +42,8 @@ package com.obs.pages;
 		
 		public void login(String UN, String Pwd) {
 			try {
-				test.log(Status.PASS, "Verifying admin user login");
-				log.info("Verifying admin user login");
+				test.log(Status.PASS, "Verify admin user login");
+				log.info("Verify admin user login");
 				UserName.sendKeys(UN);
 				Password.sendKeys(Pwd);
 				SignIn.click();
