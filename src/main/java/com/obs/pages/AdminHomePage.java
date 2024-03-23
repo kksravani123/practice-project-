@@ -50,7 +50,7 @@ package com.obs.pages;
 		public void verifyHomePageText() {
 			if(homePageText.isDisplayed()) {
 				Assert.assertTrue(true, "Home page is displayed successfully");
-				test.log(Status.PASS, "Home page is displayed successfully");
+				test.log(Status.PASS, " The Home page is displayed successfully");
 				log.info("Home page is displayed successfully");
 			}else {
 				Assert.assertTrue(false, " The Home page is NOT displayed");
