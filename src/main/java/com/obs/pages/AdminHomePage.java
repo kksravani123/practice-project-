@@ -53,7 +53,7 @@ package com.obs.pages;
 				test.log(Status.PASS, "Home page is displayed successfully");
 				log.info("Home page is displayed successfully");
 			}else {
-				Assert.assertTrue(false, "Home page is NOT displayed");
+				Assert.assertTrue(false, " The Home page is NOT displayed");
 				test.log(Status.FAIL, "Home page is NOT displayed");
 				log.info("Home page is NOT displayed");
 			}
